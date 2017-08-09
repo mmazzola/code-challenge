@@ -43,7 +43,7 @@ export default class HistoryScreen extends React.Component {
   render() {
     return (<FlatList
       data={this.props.events}
-      refreshing={this.props.refreshing}
+      keyExtractor={(item, index)=>item.timestamp+item.label}  
       renderItem={({item}) => <MatchEvent event={item}></MatchEvent>}
       ItemSeparatorComponent={this.renderSeparator}
       ListFooterComponent={this.renderFooter}/>);

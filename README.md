@@ -11,6 +11,7 @@
 * Combine similar stylesheet in standard styles (es. for text: paragraph, title, subtitle...).
 * Develop a library that manually adds svg as in this implementation directly from .svg file.
 * Fully support landscape mode (currently UI renders almost correctly.) 
+* Improve FlatList optimization.
 
 ## Build info
-The application was started up with Create React Native App, so it can be started with just npm start. I debugged it on my Android device using Expo and on an iOS simulator.
+The application was started up with Create React Native App, so it can be started with just npm start (after npm install). I debugged it on my Android device using Expo and on an iOS simulator.

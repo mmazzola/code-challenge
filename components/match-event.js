@@ -3,7 +3,7 @@ import {StyleSheet, Text, Image, View} from 'react-native';
 import consts from './../commons/constants.js';
 import Icon from './../components/icon.js';
 
-export default class MatchEvent extends React.Component {
+export default class MatchEvent extends React.PureComponent {
 
     render() {
 
